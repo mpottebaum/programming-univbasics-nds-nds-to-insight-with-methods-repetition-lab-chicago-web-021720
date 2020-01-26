@@ -51,6 +51,7 @@ def total_gross(source)
   list_index = 0
   while list_index < director_list.length do
     total += directors_totals_hash[director_list[list_index]]
+    list_index += 1
   end
   total
 end
